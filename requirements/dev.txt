@@ -10,8 +10,6 @@ attrs==21.2.0
     # via pytest
 babel==2.9.1
     # via sphinx
-backports.entry-points-selectable==1.1.0
-    # via virtualenv
 certifi==2021.5.30
     # via requests
 cfgv==3.3.1
@@ -22,11 +20,11 @@ click==8.0.1
     # via
     #   flask
     #   pip-tools
-distlib==0.3.3
+distlib==0.3.6
     # via virtualenv
 docutils==0.17.1
     # via sphinx
-filelock==3.3.0
+filelock==3.9.0
     # via
     #   tox
     #   virtualenv
@@ -70,7 +68,7 @@ pluggy==1.0.0
     # via
     #   pytest
     #   tox
-pre-commit==2.16.0
+pre-commit==3.1.1
     # via -r dev.in
 py==1.10.0
     # via
@@ -89,9 +87,7 @@ pyyaml==5.4.1
 requests==2.26.0
     # via sphinx
 six==1.16.0
-    # via
-    #   tox
-    #   virtualenv
+    # via tox
 snowballstemmer==2.1.0
     # via sphinx
 sphinx==4.3.2
@@ -118,7 +114,6 @@ sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
 toml==0.10.2
     # via
-    #   pre-commit
     #   pytest
     #   tox
 tomli==1.2.1
@@ -127,7 +122,7 @@ tox==3.24.5
     # via -r dev.in
 urllib3==1.26.7
     # via requests
-virtualenv==20.8.1
+virtualenv==20.20.0
     # via
     #   pre-commit
     #   tox
